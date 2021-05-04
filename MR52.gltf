@@ -1,0 +1,390 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 24250,
+            "type": "VEC3",
+            "max": [
+                7.977031707763672,
+                -3.663567066192627,
+                2.1098427772521974
+            ],
+            "min": [
+                -12.68709945678711,
+                -34.539405822753909,
+                0.11134275794029236
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 24250,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -0.9265418648719788
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 38148,
+            "type": "SCALAR",
+            "max": [
+                24249
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1376,
+            "type": "VEC3",
+            "max": [
+                9.874051094055176,
+                -2.699939727783203,
+                0.24009275436401368
+            ],
+            "min": [
+                -13.352490425109864,
+                -34.93988800048828,
+                0.010092765092849732
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1376,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 5424,
+            "type": "SCALAR",
+            "max": [
+                1375
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 789312,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 291000,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 291000,
+            "byteLength": 291000,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 582000,
+            "byteLength": 152592,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 734592,
+            "byteLength": 16512,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 751104,
+            "byteLength": 16512,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 767616,
+            "byteLength": 21696,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "..\\..\\..\\..\\Desktop\\mercury-security-1705-1032.jpg"
+        }
+    ],
+    "materials": [
+        {
+            "name": "09 - Default",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "baseColorFactor": [
+                    0.5921568870544434,
+                    0.5921568870544434,
+                    0.5921568870544434,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.959750771522522
+            }
+        },
+        {
+            "name": "13 - Default",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.125490203499794,
+                    0.125490203499794,
+                    0.125490203499794,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.959750771522522
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "MR52_Props",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 2,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "MR52_Board",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 5,
+                    "attributes": {
+                        "POSITION": 3,
+                        "NORMAL": 4
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "children": [
+                1,
+                5
+            ]
+        },
+        {
+            "name": "MR52_Props_$AssimpFbx$_PreRotation",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -4.371138828673793e-8,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -4.371138828673793e-8,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                2
+            ]
+        },
+        {
+            "name": "MR52_Props_$AssimpFbx$_Rotation",
+            "matrix": [
+                -1.0,
+                3.8941436741879445e-7,
+                0.0,
+                0.0,
+                -3.8941436741879445e-7,
+                -1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                3
+            ]
+        },
+        {
+            "name": "MR52_Props_$AssimpFbx$_GeometricTranslation",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                1.7392034530639649,
+                18.65742301940918,
+                -0.23791974782943726,
+                1.0
+            ],
+            "children": [
+                4
+            ]
+        },
+        {
+            "name": "MR52_Props",
+            "mesh": 0
+        },
+        {
+            "name": "MR52_Board_$AssimpFbx$_PreRotation",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -4.371138828673793e-8,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -4.371138828673793e-8,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                6
+            ]
+        },
+        {
+            "name": "MR52_Board_$AssimpFbx$_Rotation",
+            "matrix": [
+                -1.0,
+                3.8941436741879445e-7,
+                0.0,
+                0.0,
+                -3.8941436741879445e-7,
+                -1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                7
+            ]
+        },
+        {
+            "name": "MR52_Board_$AssimpFbx$_GeometricTranslation",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                1.7392034530639649,
+                18.65742301940918,
+                -0.23791974782943726,
+                1.0
+            ],
+            "children": [
+                8
+            ]
+        },
+        {
+            "name": "MR52_Board",
+            "mesh": 1
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
